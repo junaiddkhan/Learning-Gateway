@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Gateway</title>
+  <meta name="title" content="Learning Gateway">
+  <link rel="icon" href="assets/images/images 2/Learning Gateway - LOGO-06.png" type="png">
+
+  <!-- =============== REMIXICONS =============== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="" />
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="assets/css/slider css/swiper-bundle.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/slider css/slider.css" />
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="assets/css/backtop.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <!-- animations link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+  .shape{
+    display: none;
+  }
+</style>
+
+</head>
+
+<body id="top">
+
+  <header>
+    <div class="logo"><a href="index.html"><img src="assets/images/images 2/Learning Gateway - LOGO-02.png" alt=""
+          width="180px"></a></div>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <nav class="nav-bar">
+      <ul>
+        <li>
+          <a href="index.html" class="active">Home</a>
+        </li>
+        <li>
+          <a href="about.html" class="active">About</a>
+        </li>
+        <li>
+          <a href="courses.html" class="active">Courses</a>
+        </li>
+        <li>
+          <a href="faculty.html" class="active">Faculty</a>
+        </li>
+        <li>
+          <a href="contactus.html" class="active">Contact Us</a>
+        </li>
+        <div class="hh">
+          <a href="login.html" class="btn">Login</a>
+        </div>
+
+      </ul>
+    </nav>
+    <div class="signup-btn">
+      <a href="login.html" class="btn">Login</a>
+    </div>
+  </header>
+
+  <script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function () {
+      navBar = document.querySelector(".nav-bar");
+      navBar.classList.toggle("active");
+    }
+  </script>
+
+  <!-- end header -->
+
+  <main style="overflow-x: hidden;">
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.svg')">
+        <div class="container">
+
+          <div class="hero-content" data-aos="zoom-in" data-aos-duration="600" >
+
+            <h1 class="h1 section-title">
+              Beginning Your <span class="span">Journey</span> With Success
+            </h1>
+
+            <p class="hero-text">
+              Learning Gateway is the cutting-edge platform that top educational institutions are turning to for
+              all-in-one project management.
+            </p>
+
+          </div>
+
+          <figure class="hero-banner">
+
+            <div class="img-holder one" style="--width: 270; --height: 300;" data-aos="zoom-in" data-aos-duration="600">
+              <img src="assets/images/hero-banner-1.jpg" width="270" height="300" alt="hero banner" class="img-cover">
+            </div>
+
+            <div class="img-holder two" style="--width: 240; --height: 370;" data-aos="zoom-in" data-aos-duration="600">
+              <img src="assets/images/hero-banner-2.jpg" width="240" height="370" alt="hero banner" class="img-cover">
+            </div>
+
+            <img src="assets/images/hero-shape-1.svg" width="380" height="190" alt="" class="shape hero-shape-1"
+              data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">
+
+            <img src="assets/images/hero-shape-2.png" width="622" height="551" alt="" class="shape hero-shape-2"
+              data-aos="zoom-in" data-aos-duration="600">
+
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category" aria-label="category">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Get The <span class="span">Right</span> Way For Students.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="category-card" style="--color: 170, 75%, 41%" data-aos="fade-up-right" data-aos-duration="800"
+                data-aos-delay="200">
+
+                <div class="card-icon">
+                  <img src="assets/images/category-1.svg" width="40" height="40" loading="lazy"
+                    alt="Online Degree Programs" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Online Courses</a>
+                </h3>
+
+                <p class="card-text">
+                  Our online courses give you the golden opportunity to learn while being at home.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card" style="--color: 351, 83%, 61%" data-aos="fade-up" data-aos-duration="800"
+                data-aos-delay="100">
+
+                <div class="card-icon">
+                  <img src="assets/images/category-2.svg" width="40" height="40" loading="lazy"
+                    alt="Non-Degree Programs" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Our Faculty</a>
+                </h3>
+
+                <p class="card-text">
+                  Our teaching staff is an ocean of knowledge.They are ready to counter.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card" style="--color: 229, 75%, 58%" data-aos="fade-up" data-aos-duration="800"
+                data-aos-delay="100">
+
+                <div class="card-icon">
+                  <img src="assets/images/category-3.svg" width="40" height="40" loading="lazy"
+                    alt="Off-Campus Programs" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Our Library</a>
+                </h3>
+
+                <p class="card-text">
+                  Our library houses some of the beat books that will enhance your concepts manifolds.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card" style="--color: 42, 94%, 55%" data-aos="fade-up-left" data-aos-duration="800"
+                data-aos-delay="200">
+
+                <div class="card-icon">
+                  <img src="assets/images/category-4.svg" width="40" height="40" loading="lazy"
+                    alt="Hybrid Distance Programs" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Guidance</a>
+                </h3>
+
+                <p class="card-text">
+                  Our coaching center provides specialized instruction and support to students.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <div class="img-holder" style="--width: 520; --height: 370;">
+              <img src="assets/images/about-banner.jpg" width="520" height="370" loading="lazy" alt="about banner"
+                class="img-cover">
+            </div>
+
+            <img src="assets/images/20K+.png" loading="lazy" alt="" class="shape about-shape-1">
+
+            <img src="assets/images/about-shape-2.svg" width="371" height="220" loading="lazy" alt=""
+              class="shape about-shape-2">
+
+            <img src="assets/images/about-shape-3.png" width="722" height="528" loading="lazy" alt=""
+              class="shape about-shape-3">
+          </figure>
+
+          <div class="about-content">
+
+
+
+            <h2 class="h2 section-title">
+              Elevate Your<span class="span">Learning, Discover Success</span> At Learning Gateway.
+            </h2>
+            <p class="section-text">
+              Join us on a journey of discovery and growth, and let us guide you towards your goals. Invest in your
+              future with "Learning Gateway", where every step leads towards success.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Expert Faculty</span>
+              </li>
+
+              <li class="about-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Holistic Approach</span>
+              </li>
+
+              <li class="about-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Proven Results</span>
+              </li>
+
+            </ul>
+
+            <img src="assets/images/about-shape-4.svg" width="100" height="100" loading="lazy" alt=""
+              class="shape about-shape-4">
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- why Learning Gateway -->
+
+      <div class="why-container">
+        <div class="why-heading">
+          <p>Why <strong style="color: hsl(351, 83%, 61%);">Learning Gateway ?</strong></p>
+        </div>
+        <div class="why-images">
+          <div class="why-images-container">
+            <div id="why-images">
+              <img src="assets/images/images 2/whyimages/proven result.png" alt="" />
+            </div>
+            <div class="whypara">
+              <h2>Proven Results</h2>
+              <p>Our results have exponentially improved during last 20 years.</p>
+            </div>
+          </div>
+          <div class="why-images-container">
+            <div id="why-images">
+              <img src="assets/images/images 2/whyimages/insstructor.png" alt="">
+            </div>
+            <div class="whypara">
+              <h2>Enthusiastic Instructors</h2>
+              <p>
+                Our enthusiastic instructors are the reasons behind our amazing
+                results.
+              </p>
+            </div>
+          </div>
+          <div class="why-images-container">
+            <div id="why-images">
+              <img src="assets/images/images 2/whyimages/researched material.png" alt="" />
+            </div>
+            <div class="whypara">
+              <h2>Researched Material</h2>
+              <p>
+                We make sure that our students get well researched & updated
+                material every year.
+              </p>
+            </div>
+          </div>
+          <div class="why-images-container">
+            <div id="why-images"><img src="assets/images/images 2/whyimages/classes.png" alt="" /></div>
+            <div class="whypara">
+              <h2>Small Size CLasses</h2>
+              <p>
+                Our class size make sure that you get the attention you deserve.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- success stories slider -->
+
+      <section class="container">
+        <div class="trs-h">Top <span style="color:hsl(351, 83%, 61%); ;">Ranking </span>Students</div>
+        <div class="card__container swiper">
+          <div class="card__content">
+            <div class="swiper-wrapper">
+              <!-- 1 -->
+              <article class="card__article swiper-slide">
+                <div class="card__image">
+                  <img src="assets/images/images 2/slider images/pic 3.jpeg" alt="image" class="card__img" />
+                  <div class="card__shadow"></div>
+                </div>
+
+                <div class="card__data">
+                  <h3 class="card__name">James Vince</h3>
+                  <p class="card__description">
+                    He got A grade in Pre-Engineering Overcoming initial struggles in 2023,he found success in
+                    engineering by collaborating with a mentor who provided invaluable guidance with personalized
+                    support.
+                  </p>
+                </div>
+              </article>
+              <!-- 2 -->
+              <article class="card__article swiper-slide">
+                <div class="card__image">
+                  <img src="assets/images/images 2/slider images/pic 5.jpeg" alt="image" class="card__img" />
+                  <div class="card__shadow"></div>
+                </div>
+
+                <div class="card__data">
+                  <h3 class="card__name">David Willy</h3>
+                  <p class="card__description">
+
+                    He got A1 grade, in 2019 Initially struggling with accounting principles, David sought coaching to
+                    improve his understanding and application of financial concepts that provided targeted instruction
+                    for exams.
+                  </p>
+                </div>
+              </article>
+              <!-- 3 -->
+              <article class="card__article swiper-slide">
+                <div class="card__image">
+                  <img src="assets/images/images 2/slider images/pic 1.jpeg" alt="image" class="card__img" />
+                  <div class="card__shadow"></div>
+                </div>
+
+                <div class="card__data">
+                  <h3 class="card__name">Sophia Xavier</h3>
+                  <p class="card__description">
+                    She got A1 grade , aiming for a career in 2022 for business analytics, utilized coaching to
+                    strengthen his quantitative skills and analytical reasoning. With <br> tailored guidance and
+                    practice <br> exercises.
+                  </p>
+                </div>
+              </article>
+              <!-- 4 -->
+              <article class="card__article swiper-slide">
+                <div class="card__image">
+                  <img src="assets/images/images 2/slider images/pic 2.jpeg" alt="image" class="card__img" />
+                  <div class="card__shadow"></div>
+                </div>
+
+                <div class="card__data">
+                  <h3 class="card__name">Natasha Romanoff</h3>
+                  <p class="card__description">
+                    She Struggling with standardized test preparation, Alex enrolled in a coaching center and got A1
+                    grade, in 2022 that provided targeted instruction and practice exams. With the guidance of
+                    experienced tutors.
+                  </p>
+                </div>
+              </article>
+              <!-- 5 -->
+              <article class="card__article swiper-slide">
+                <div class="card__image">
+                  <img src="assets/images/images 2/slider images/pic 4.jpeg" alt="image" class="card__img" />
+                  <div class="card__shadow"></div>
+                </div>
+
+                <div class="card__data">
+                  <h3 class="card__name"> Raqcuel Morio </h3>
+                  <p class="card__description">
+                    A student from the previous year, soared in biology with our coaching assistance.she secured an
+                    outstanding A grade.her triumph underscores both her perseverance and the efficacy of our coaching
+                    program.
+                  </p>
+                </div>
+              </article>
+
+              <article class="card__article swiper-slide">
+                <div class="card__image">
+                  <img src="assets/images/images 2/slider images/pic6.jpeg" alt="image" class="card__img" />
+                  <div class="card__shadow"></div>
+                </div>
+
+                <div class="card__data">
+                  <h3 class="card__name">Ariadna Gomez</h3>
+                  <p class="card__description">
+
+                    In 2017 she got A1 grade, tackled challenging projects, earned accolades, paving the way for a
+                    promising career in the field then proceeded to Columbia University now his students were achieving
+                    unheard-of success rates.
+                  </p>
+                </div>
+              </article>
+              <!-- end -->
+            </div>
+          </div>
+
+          <!-- Navigation buttons -->
+          <div class="swiper-button-next tt">
+            <!-- <i class="ri-arrow-right-s-line"></i> -->
+          </div>
+
+          <div class="swiper-button-prev vv">
+            <!-- <i class="ri-arrow-left-s-line"></i> -->
+          </div>
+
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/slider js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/slider js/main.js"></script>
+
+
+      <!-- 
+        - #VIDEO
+      -->
+
+      <section class="video has-bg-image" aria-label="video"
+        style="background-image: url('assets/images/video-bg.png')">
+        <div class="container">
+
+          <div class="video-card">
+
+            <div class="video-banner img-holder has-after" style="--width: ; --height: ;">
+              <img src="assets/images/video-banner.jpg" width="970" height="550" loading="lazy" alt="video banner"
+                class="img-cover">
+
+              <button class="play-btn" aria-label="play video">
+                <ion-icon name="play" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+
+            <img src="assets/images/video-shape-1.png" width="1089" height="605" loading="lazy" alt=""
+              class="shape video-shape-1">
+
+            <img src="assets/images/video-shape-2.png" width="158" height="174" loading="lazy" alt=""
+              class="shape video-shape-2">
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATE
+      -->
+
+      <section class="section stats" aria-label="stats">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="50">
+              <div class="stats-card" style="--color: 170, 75%, 41%">
+                <h3 class="card-title">29.3k</h3>
+
+                <p class="card-text">Student Enrolled</p>
+              </div>
+            </li>
+
+            <li data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="76">
+              <div class="stats-card" style="--color: 351, 83%, 61%">
+                <h3 class="card-title">32.4K</h3>
+
+                <p class="card-text">Class Completed</p>
+              </div>
+            </li>
+
+            <li data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="100">
+              <div class="stats-card" style="--color: 260, 100%, 67%">
+                <h3 class="card-title">100%</h3>
+
+                <p class="card-text">Satisfaction Rate</p>
+              </div>
+            </li>
+
+            <li data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="125">
+              <div class="stats-card" style="--color: 42, 94%, 55%">
+                <h3 class="card-title">354+</h3>
+
+                <p class="card-text">Top Instructors</p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+    </article>
+
+    <!-- OUR ALUMNI -->
+
+    <div id="page" class="site">
+      <div class="container">
+        <div class="testi">
+          <div class="head">
+            <h1>Our Alumni</h1>
+          </div>
+          <div class="body swiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <div class="wrapper">
+                  <div class="thumbnail">
+                    <img src="assets/images/images 2/ourAlumni Images/boy1.jpg" alt="" />
+                  </div>
+                  <div class="aside">
+                    <p>
+                      Thanks to the dedicated teachers and personalized attention at "Learning Gateway", I saw a
+                      remarkable improvement in my grades. Concepts that once seemed daunting became clear, and I gained
+                      confidence in my abilities. I'm grateful for the support that helped me excel academically.
+                    </p>
+                    <div class="name">
+                      <h4>Steven Adams</h4>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="wrapper">
+                  <div class="thumbnail">
+                    <img src="assets/images/images 2/ourAlumni Images/boy2.jpg" alt="" />
+                  </div>
+                  <div class="aside">
+                    <p>
+                      I wholeheartedly recommend Learning Gateway to anyone seeking quality education and personalized
+                      attention. My experience here has been nothing short of exceptional, and I'm confident it will
+                      benefit anyone looking to reach their academic or career goals.
+                    </p>
+                    <div class="name">
+                      <h4>Alexander Jones</h4>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="wrapper">
+                  <div class="thumbnail">
+                    <img src="assets/images/images 2/ourAlumni Images/girl1.jpg" alt="" />
+                  </div>
+                  <div class="aside">
+                    <p>
+                      Studying at "Learning Gateway" felt like being part of a supportive community. The positive
+                      atmosphere and encouragement from both faculty and peers motivated me to give my best effort. It's
+                      not just a coaching center; it's a place where you're cheered on every step of the way.
+                    </p>
+                    <div class="name">
+                      <h4>Olivia Jhonson</h4>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="wrapper">
+                  <div class="thumbnail">
+                    <img src="assets/images/images 2/ourAlumni Images/girl2.jpg" alt="" />
+                  </div>
+                  <div class="aside">
+                    <p>
+                      What sets "Learning Gateway"apart is the personalized attention each student receives. The small
+                      class sizes allowed for interactive learning, and the teachers were always available to clarify
+                      doubts. I never felt like just another student; my progress truly mattered to them.
+                    </p>
+                    <div class="name">
+                      <h4>Ruby Evans</h4>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="wrapper">
+                  <div class="thumbnail">
+                    <img src="assets/images/images 2/ourAlumni Images/girl3.jpg" alt="" />
+                  </div>
+                  <div class="aside">
+                    <p>
+                      Balancing academics with other commitments was made easier by "Learning Gateway flexible schedule.
+                      With evening and weekend classes available, I could pursue my passions and responsibilities
+                      without compromising on my education. It's the kind of support that makes all the difference.
+                    </p>
+                    <div class="name">
+                      <h4>Evelyn Anderson</h4>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        autoheight: true,
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+
+
+    <div class="ins-container">
+      <div class="left">
+        <h1 id="l-h1">Join The <span style="color: hsl(351, 83%, 61%);">Institute</span></h1>
+        <P>Empower Yourself With Learning Gateway</P>
+        <div class="member">JOIN NOW</div>
+      </div>
+      <div class="right">
+        <h1 id="r-h1">Become A Member Of <span style="color: hsl(351, 83%, 61%);"><b>Learning Gateway</b></span></h1>
+        <div class="card-paragraph">
+          <p><i class="ri-arrow-right-s-line"></i>Join us for access to the latest coaching updates</p>
+          <p><i class="ri-arrow-right-s-line"></i>Connect with our thought leaders and elite coaching community</p>
+          <p><i class="ri-arrow-right-s-line"></i>Keep up to date on coaching science with our expansive journal
+            database</p>
+          <p><i class="ri-arrow-right-s-line"></i>Participate in webinars and discussion groups focused on coaching
+            needs</p>
+          <p><i class="ri-arrow-right-s-line"></i>Expand your practice with in-depth courses and seminars</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <div id="progress">
+    <span id="progress-value"><i class="ri-arrow-up-s-line"></i></span>
+  </div>
+  <script src="assets/js/backtop.js"></script>
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="assets/js/script.js" defer></script>
+  <script src="https://kit.fontawesome.com/3c55e1d6d1.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <footer>
+    <div class="row">
+      <div class="col">
+        <img src="assets/images/images 2/Learning Gateway - LOGO-02.png" alt="logo" height="70%" width="70%" />
+      </div>
+
+      <div class="col">
+        <h3>
+          Links
+          <div class="underline"><span></span></div>
+        </h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="faculty.html">Faculty</li>
+          <li><a href="contactus.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>
+          Campuses
+          <div class="underline"><span></span></div>
+        </h3>
+        <ul>
+          <li><a href="">Gulshan e Iqbal Campus</a></li>
+          <li><a href="">Malir Campus</a></li>
+          <li><a href="">DHA Campus</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>
+          NewsLetter
+          <div class="underline"><span></span></div>
+        </h3>
+        <form>
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" placeholder="Enter Your Email" />
+          <button type="submit">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </form>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://www.whatsapp.com/" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="https://www.twitter.com/" target="_blank">
+            <i class="fa-brands fa-twitter"></i> </a>
+          <a href="https://www.pinterest.com/" target="_blank">
+            <i class="fa-brands fa-pinterest"></i>
+          </a>
+
+        </div>
+      </div>
+    </div>
+    <hr />
+    <p class="copyright">
+      All Copyrights Reserved &copy;2024 |Learning Gateway
+    </p>
+  </footer>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>

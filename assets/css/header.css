@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  width: 100%;
+  height: 80px;
+  background: #18bfa6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+.hh {
+  display: none;
+}
+.hamburger {
+  display: none;
+}
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+}
+.nav-bar ul li a {
+  display: block;
+  color: #c8deff;
+  font-size: 20px;
+  padding: 10px 25px;
+  transition: 0.1s;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.nav-bar ul li a:hover {
+  color: #fefefe;
+  text-decoration: underline;
+  transition: 0.1;
+}
+/* login signup button */
+.btn {
+  --color: #fefefe;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  width: 6em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+  text-align: center;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.btn:hover {
+  color: #18bfa6;
+}
+
+.btn:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.btn:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.btn:active:before {
+  background: #18bfa6;
+  transition: background 0s;
+}
+
+/* responsive nav */
+@media only screen and (max-width: 1320px) {
+  header {
+    padding: 0 50px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  header {
+    padding: 0 40px;
+    width: 100%;
+  }
+  .nav-bar ul li a {
+    padding: 10px 22px;
+  }
+}
+@media only screen and (max-width: 1034px) {
+  .nav-bar ul li a {
+    padding: 10px 8px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hh {
+    display: block;
+  }
+
+  .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background: #fefefe;
+    margin: 6px 0;
+  }
+  .nav-bar {
+    height: 0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background: #18bfa6;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  .nav-bar.active {
+    height: 450px;
+    width: 100%;
+    z-index: 90;
+    border-radius: 0 0 5px 5px;
+  }
+  .nav-bar ul {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .nav-bar.active ul {
+    opacity: 1;
+  }
+  .nav-bar ul li a {
+    margin-bottom: 12px;
+    padding: 10px 25px;
+  }
+  .signup-btn {
+    display: none; /* Hide the sign-up button on smaller screens */
+  }
+  .signup-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  header {
+    padding: 10px;
+  }
+  .logo img {
+    width: 160px;
+  }
+}
